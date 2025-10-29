@@ -1,0 +1,36 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+
+# Archive files
+*.tgz
+
+# Optional: ignore large model files (uncomment if you don't want to commit binary models)
+# *.onnx

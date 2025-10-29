@@ -1,0 +1,30 @@
+{
+  "name": "food_not_food_inference_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "author": "Sush1sui",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "onnxruntime-node": "^1.23.0",
+    "sharp": "^0.34.4",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2"
+  }
+}
